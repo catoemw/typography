@@ -1,1 +1,54 @@
+header {
+	font-family: sans-serif;
+	text-align: center;
+}
 
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+	margin-bottom: 0px;
+}
+
+h2 {
+	color: #ba2935;
+	font-family: sans-serif;
+}
+
+h3 {
+	font-family: sans-serif;
+}
+
+div.main-content p {
+	font-family: Georgia;
+	font-size: 19px;
+	line-height: 150%;
+}
+
+ol {
+	font-family: Georgia;
+	
+}
+
+p + div,
+p + time {
+ 	display: inline-block;
+ 	margin-bottom: 10px;
+}
+
+p + div > a {
+	font-weight: 900;
+}
+
+.entry-meta {
+	font-size: 12px;
+}
+
+div.main-content > p:nth-of-type(1) {
+ 	font-size: 25px;
+ 	font-family: Georgia;
+}
