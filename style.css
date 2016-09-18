@@ -1,47 +1,98 @@
 header {
-	font-family: sans-serif;
+	font-family: "Libre Franklin", sans-serif;
 	text-align: center;
+	margin: 12px 0px 36px 0px;
+	padding: 0px 12px 0px 12px;
 }
 
 a {
 	text-decoration: none;
+	color: #2455c3;
+}
+
+h2,
+h3 {
+	font-family: "Libre Franklin", sans-serif;
+	font-weight: 800;
 }
 
 h1 {
-	font-family: sans-serif;
-	font-size: 40px;
-	font-weight: 900;
-	margin-bottom: 0px;
+	font-size: 30px;
+	margin-bottom: 6px;
+	padding: 0px 12px 0px 12px;
 }
 
 h2 {
-	color: #ba2935;
-	font-family: sans-serif;
+	color: #ba3925;
+	font-size: 22px;
+	margin: 36px 0px 14px 0px;
+	
 }
 
 h3 {
-	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin: 0px 0px 3px 0px;
+}
+
+div.main-content {
+	font-family: Georgia;
+	font-size: 18px;
+	line-height: 175%;
+	margin: 0px 12px 0px 12px;
 }
 
 div.main-content p {
-	font-family: Georgia;
-	font-size: 19px;
-	line-height: 150%;
+	margin: 0px 0px 18px 0px;
 }
 
-ol {
-	font-family: Georgia;
-	
+ol,
+ul {
+	line-height: 250%;
+	margin: 0px 0px 18px 0px;
+}
+
+figure.quote {
+	font-style: italic;
+	border-left-style: dotted;
+	border-color: #bfbfbf;
+	border-left-width: 1px;
+	padding: 0px 12px 0px 12px;
+	margin: 32px 0px 18px 0px;
+}
+
+blockquote {
+	font-size: 19px;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+figcaption {
+	font-size: 14px;
+	margin: 12px 0px 12px 0px;
+}
+
+figcaption:before {
+	content: "\2014";
 }
 
 p + div,
 p + time {
  	display: inline-block;
- 	margin-bottom: 10px;
+ 	margin-bottom: 12px;
+}
+
+time:before {
+	content: "\2027";
+	padding-right: 5px;
+}
+
+time.pubdate.updated {
+	padding: 1px;
 }
 
 p + div > a {
-	font-weight: 900;
+	font-weight: 800;	
 }
 
 .entry-meta {
@@ -50,5 +101,6 @@ p + div > a {
 
 div.main-content > p:nth-of-type(1) {
  	font-size: 25px;
- 	font-family: Georgia;
+ 	line-height: 150%;
+ 	margin: 0px 0px 24px 0px;
 }
