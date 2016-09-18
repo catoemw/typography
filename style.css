@@ -20,6 +20,7 @@ h1 {
 	font-size: 30px;
 	margin-bottom: 6px;
 	padding: 0px 12px 0px 12px;
+
 }
 
 h2 {
@@ -36,7 +37,7 @@ h3 {
 }
 
 div.main-content {
-	font-family: Georgia;
+	font-family: Georgia, serif;
 	font-size: 18px;
 	line-height: 175%;
 	margin: 0px 12px 0px 12px;
